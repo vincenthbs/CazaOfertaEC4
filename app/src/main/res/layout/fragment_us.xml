@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.us.UsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textUs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="30dp"
+            android:text="Nuestra Informacion"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nuestra aplicacion fue creada:"
+            android:textSize="18sp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="31 de julio de 2023"
+            android:textSize="16sp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Que Somos?"
+            android:textSize="18sp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="En alguna ocasión, todos nos hemos encontrado con una oferta increíble: Ropa con descuentos de hasta el 70%, el videojuego que querías en liquidación, errores de precios en vuelos de avión, ventas que duran un sólo día o incluso horas, etc. Todos los días hay ofertas muy buenas, el problema es encontrarlas.
+
+Cazaofertas es una app que permite compartir y reaccionar por las mejores ofertas de todos los días. Las ofertas con más reacciones de cada día son las que aparecen primero, así que los mismos visitantes son los que eligen cuáles son las mejores ofertas."
+            android:textSize="16sp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+
+</FrameLayout>
